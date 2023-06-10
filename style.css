@@ -2,11 +2,18 @@ body {
 
     background-color: black;
     color: silver;
-    
 
 };
 
-#nav {
+header {
+
+    font-size: larger;
+    border: 1em, solid, silver;
+    font-weight: bolder;
+
+};
+
+nav {
 
     display: flex;
     flex-direction: row;
