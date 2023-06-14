@@ -1,0 +1,83 @@
+
+body {
+    
+    background-color: black;
+    color: silver; 
+}
+.background-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../img/vw.jpg);
+    filter: contrast(1) brightness(0.4);
+}
+
+.header { 
+
+    margin-left: 10px; 
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 1rem;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub__menu {
+
+    font-size: 70%;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: baseline  ;
+}
+
+.nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.1em solid grey;
+    border-top: 0.1em solid grey;
+    margin: 16px 0;
+    font-size: 95%;
+    text-align: center;
+}
+
+.nav__item {
+
+    display: inline-block;
+    margin-left: 10px; 
+    text-align: center;
+    transition: 1s;
+}
+
+.nav__item:hover {
+
+    color:rgb(204, 29, 29);
+    transform: scale(1.2);   
+}
+
+.ul, ol {
+
+    list-style: none;
+    display: inline;
+}
+
+a:link {
+
+    text-decoration: none; 
+}
+
+.box__title {
+
+    
+    font-size: 250%;
+}
+
+.box {
+    display: inline-block;
+    border: solid 1em silver;   
+}
